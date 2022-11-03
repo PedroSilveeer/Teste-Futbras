@@ -176,3 +176,18 @@
       }
        
     }
+
+
+    @media screen and (max-width: 1920px ){
+      .formulario-inscricao{
+        width: 40%;
+      }
+      
+      .tablet{
+        margin-left: 3rem;
+        width: 50%;
+
+      }
+
+
+    }
