@@ -2,16 +2,16 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 2rem;
+    margin: auto;   
     width: 45%; 
     padding: 0.5rem;
     font-size: 1.3rem;
    
-    
-    
   }
   
 .formulario-inscricao__titulo {
+    text-align: center;
+    text-decoration: underline;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif; 
     font-size: 1.5em;

@@ -17,9 +17,17 @@
 }
 
 .redes-sociais{
+    margin-top: -2.3rem;
     justify-content: flex-end;
 
 }
+
+.redes.sociais__texto{
+    text-align: center;
+    margin: auto;
+
+}
+
 .rede-social__icone{
     justify-content: flex-end;
     width: 3rem;
@@ -32,6 +40,7 @@
 }
 
 .contato a{   
-    text-decoration: none;    
+    text-decoration: none; 
+       
 }
 
