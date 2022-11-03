@@ -37,7 +37,8 @@
     
     padding:0.6rem ;
     border-radius: 5px;
-    border: 0.17rem solid;
+    border: 0.15rem solid;
+    border-color: #c0c0c0;
     outline: none;
   }
   
