@@ -5,17 +5,17 @@
 }
 
 .tablet__texto{
-    font-size: 1.16rem;
+    font-size: 1.15rem;
     text-align: center;
     justify-content: center;
-    margin-left: 5rem;
+    margin-left: 0rem;
 
 }
 
 
 .tablet__imagem{
     width: 100%;
-    margin-left:3rem;
+    margin-left:0;
     
 
 }
