@@ -8,6 +8,13 @@
     
 }
 
+@media screen and (max-width:320px){
+  html{
+    width: 112%;
+  }
+ 
+}
+
     /* CABECALHO */
 
 @media screen and (max-width: 480px ) {
