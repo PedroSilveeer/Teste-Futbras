@@ -1,0 +1,37 @@
+.rodape{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.95rem;
+    background-color: #dcdcdc;
+    color: black;
+
+}
+
+.copyright{
+    margin-left: 7rem;
+    justify-content: center;
+
+}
+
+.redes-sociais{
+    justify-content: flex-end;
+
+}
+.rede-social__icone{
+    justify-content: flex-end;
+    width: 3rem;
+    margin-left: 1rem;
+
+}
+
+.contato{
+    margin-top: -2rem;
+}
+
+.contato a{   
+    text-decoration: none;    
+}
+

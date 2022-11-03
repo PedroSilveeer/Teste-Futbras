@@ -1,0 +1,67 @@
+.formulario-inscricao {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    width: 50%; 
+    padding: 0.5rem;
+    font-size: 1.3rem;
+   
+    
+    
+  }
+  
+.formulario-inscricao__titulo {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.5em;
+    margin-top: 1.75rem;
+  }
+  
+.form-group {
+   
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+  }
+  
+.form-group label {
+    font-size: 1.185rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+  }
+  
+.form-group input,
+.form-group select {
+    
+    padding:0.6rem ;
+    border-radius: 5px;
+    border: 0.17rem solid;
+    outline: none;
+  }
+  
+.checkbox{    
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.856rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+.checkbox__caixa{
+  cursor: pointer;
+    width: 1.2rem;
+   
+    
+  }
+.checkbox__texto{
+    margin-left: 1rem;
+
+  }
+
+  .checkbox__link{
+    text-decoration: underline;
+  }
+

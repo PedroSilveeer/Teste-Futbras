@@ -1,0 +1,42 @@
+:root{
+    --azul-forte: #004AAD;
+    --azul-claro: #007FFF;
+    --amarelo: #FFFF00;
+    --amarelo-suave: #DEFF1C;
+    --branco: #fdfdfd;
+
+}
+
+/* PARA ALGUNS CASOS */
+/* html{
+    margin-right: -2rem;
+} */
+
+
+body{
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.conteudo{ 
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #fdfdfd;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+   
+    
+

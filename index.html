@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Futbras</title>
+    <link href = "css/normalize.css" rel="stylesheet">
+    <link href = "css/reset.css" rel="stylesheet">
+    <link href = "css/style.css" rel="stylesheet">
+    <link href = "css/cabecalho.css" rel="stylesheet">
+    <link href = "css/banner.css" rel="stylesheet">
+    <link href = "css/formulario.css" rel="stylesheet"> 
+    <link href = "css/botoes.css" rel="stylesheet">
+    <link href = "css/rodape.css" rel="stylesheet">
+    <link href="/css/tablet.css" rel="stylesheet">
+    <link href="/css/responsivo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+</head> 
+    <body class="pagina">
+        <header class="cabecalho">
+           
+                <img class="cabecalho__logo" src="./img/_FUTBRAS logo(branco).png"  alt="Logo Futbras">
+          
+        </header>
+
+        <div class = "banner">
+            <img src="./img/hexa-banner.png" class="banner__imagem">               
+        </div>
+        <main class="conteudo">
+            <div class="formulario-inscricao">
+                <p class="formulario-inscricao__titulo">Cadastre-se aqui!</p>
+                <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" />
+                </div>
+                <div class="form-group">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" placeholder="Digite seu sobrenome" />
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="Digite seu melhor e-mail" />
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" placeholder="( ) _____-____" />
+                </div>
+                <div class="form-group">
+                    <label for="data-nascimento">Data de Nascimento</label>
+                    <input type="date"  />             
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" placeholder="__.__.__-__" />             
+                </div>
+                <div class="checkbox">                   
+                    <input class = "checkbox__caixa" type="checkbox">  
+                    <p class="checkbox__texto"> Concordo com o <a class = "checkbox__link" href="#">Regulamento</a> e com os <a class = "checkbox__link" href="#">Termos de Uso</a>, 
+                        e estou ciente da <a class = "checkbox__link" href="#">Politica de Privacidade</a>.
+                    </p>
+                </div>  
+                <input type="submit" class="btn" value="Quero me inscrever" />
+                <input type="submit" class="btn" value="Já possui uma conta? Fazer login" />
+                </form>
+            </div>
+            <div class="tablet">
+               <p class="tablet__texto">Por apenas R$19,90 você adquiri a revista digital HEXA DE PRÊMIOS,<br>onde em 77 páginas você encontrará informações e curiosidades das <br> Copas de 58, 62, 70, 94 e 2002.
+                E mais escalações e informações das 32<br> seleções da Copa do Catar, os estádios dos jogos,a tabela de jogos,<br>receitas e simpatias para torcer pela nossa seleção e muito mais...
+                <br>E ainda pode ganhar mais de R$200 mil, se sua revista tiver a <br>combinação das oito seleções que vão para as quartas de finais!</p>
+                <img class="tablet__imagem" src="/img/Tablet Hexa de Prêmios.png" alt="Tablet com o produto Hexa de Premios">           
+            </div>
+        </main>    
+    </body>
+    <footer class="rodape">
+        <div class="copyright">&copy; 2022 Futbras Todos os direitos reservados <hr width=50%> </div>
+
+        <div class="contato">
+          <p class="contato__texto">Contato:</p>
+           <a class ="contato__email"href="mailto:futbras@gmail.com" text-decoration=none>futbras@gmail.com</a> 
+        </div>
+  
+      <div class="redes-sociais">
+        <a href="#" class="rede-social"><img class ="rede-social__icone"src="/img/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/hexadepremios/" class="rede-social"><img class ="rede-social__icone" src="/img/instagram.png" alt="Instagram"></a>
+        <a href="https://twitter.com/hexadepremios?s=20&t=MI5QzRmaxZBYdLqHVyikaA" class="rede-social"><img class ="rede-social__icone" src="/img/twitter.png" alt="Twitter"></a>
+        <a href="#" class="rede-social"><img class ="rede-social__icone" src="/img/tiktok.png" alt="Tiktok"></a>
+      </div>
+            
+     </footer>
+</html>

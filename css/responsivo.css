@@ -1,0 +1,181 @@
+ /* STYLE */
+
+@media screen and (max-width: 768px ){
+    .conteudo{ 
+        flex-direction: column;
+        margin: auto;
+    }
+    
+}
+
+    /* CABECALHO */
+
+@media screen and (max-width: 480px ) {
+    .cabecalho__logo{
+       margin-top: 1rem;
+       width: 100%;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 1024px ){
+    .cabecalho__logo{
+     width: 70%;
+  
+    }
+  }
+
+  /* FORMULARIO */
+  
+  @media screen and (max-width: 480px ){
+
+    .formulario-inscricao{
+      justify-content: center;
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .formulario-inscricao__titulo{
+    margin-left: 1rem;
+
+    }
+
+  
+    .form-group input,
+    .form-group select {
+      width: 100%;
+
+    }
+
+    .checkbox__texto{
+      width: 80%;
+    }
+    
+
+} 
+
+
+@media screen and (max-width: 1024px ){
+  .formulario-inscricao{
+    width: 90%;
+ 
+  }
+
+  .checkbox__texto{
+    font-size: 1rem;
+
+  }
+   
+}
+
+
+/* TABLET */
+
+@media screen and (max-width: 480px ){
+    .tablet__texto{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .tablet__imagem{
+       margin-left: 0;
+    }
+}
+
+
+@media screen and ( max-width: 1024px ){
+    .tablet{
+        width: 100%;
+    }
+    .tablet__texto{
+        margin-left: 0;
+       text-align: start;
+
+       
+    }
+
+    .tablet__imagem{
+        margin-left: 0rem;
+    }
+
+}
+
+
+    /* RODAPE */
+
+    @media screen and (max-width: 480px ){
+    
+        .rodape{
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .contato{
+            width: 70%;
+            display:flex;
+            justify-content: space-between
+        
+        }
+        .contato a{
+          margin-top: 1.4rem;
+        }
+    
+        .redes-sociais{
+            margin-top: 1.35rem;
+        }
+        .copyright{ 
+            padding-left: 2rem;
+            width: 100%;
+            margin-bottom: 1rem;
+    
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px ){
+        
+    
+    
+        .copyright{
+            width: 100%;
+            margin-right: 0.8rem;
+            font-size: 0.85rem;
+            margin-left: 0;
+        }
+    
+        .contato{
+            margin-top: 0;
+            margin-right: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .contato a{
+            margin-top: 0;
+            
+        }
+    
+     .copyright hr{
+        margin-right: 10rem;
+        width: 80%;
+     }
+        
+      .contato__texto{
+    
+        margin-top:0;
+        margin-bottom: 0;
+    
+      }
+    
+      .redes-sociais{
+        
+      }
+      .rede-social__icone{
+        margin-bottom:0.5rem ;
+      }
+       
+    }
